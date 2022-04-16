@@ -1,0 +1,36 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #797D62;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.container{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+.row{
+    padding: 1rem;
+    margin: 1.2rem;
+}
+.row:nth-child(1){
+    border-radius: 5px;
+}
+.text {
+    font-size: 3rem;
+    color: #fff;
+    font-family: 'Poiret One', cursive;
+}
+.box{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    width: 300px;
+    height: 300px;
+    background-color: #D08C60;
+    border-radius: 5px;
+    font-size: 19px;
+}
